@@ -28,7 +28,7 @@ export default function BlogPage() {
         <div className="article-grid">
           {articles.map((a) => (
             <Link key={a.slug} to={`/blog/${a.slug}`} className="article-card">
-              <img src={a.image} alt="" />
+              <img src={a.image} alt="" loading="lazy" decoding="async" />
               <div>
                 <span>Cleaning advice · 5 min read</span>
                 <h3>{a.title}</h3>

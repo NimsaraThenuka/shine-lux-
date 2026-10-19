@@ -25,7 +25,7 @@ export const services: Service[] = [
       "Tell us which rooms to prioritise, the level of attention needed and any delicate finishes or access constraints.",
     closing: "Make Room for What Matters",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395392/cleaning-worker-doing-dry-cleaning-furniture_274679-58087_gpuoal.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395392/cleaning-worker-doing-dry-cleaning-furniture_274679-58087_gpuoal.jpg",
   },
   {
     slug: "regular-cleaning",
@@ -50,7 +50,7 @@ export const services: Service[] = [
       "Discuss visit frequency, property size, priorities, pets, access and whether rotating deeper tasks should be quoted separately.",
     closing: "Keep Life Moving. Keep Your Home Feeling Fresh.",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395575/chores-woman-cleaning-table-surfcase-with-disinfector_kcv8yi.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395575/chores-woman-cleaning-table-surfcase-with-disinfector_kcv8yi.jpg",
   },
   {
     slug: "end-of-lease-cleaning",
@@ -75,7 +75,7 @@ export const services: Service[] = [
       "Provide the property size, vacate date, condition report priorities, access details and any required specialist extras.",
     closing: "Leave the Cleaning Checklist Behind",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395626/african-american-man-vacuuming-floors-living-room-cleaning-apartment-with-girlfriend-young-adult-using-vacuum-cleaner-woman-wiping-shelves-with-all-purpose-cleaner-tripod-shot_prxmp6.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395626/african-american-man-vacuuming-floors-living-room-cleaning-apartment-with-girlfriend-young-adult-using-vacuum-cleaner-woman-wiping-shelves-with-all-purpose-cleaner-tripod-shot_prxmp6.jpg",
   },
   {
     slug: "office-cleaning",
@@ -124,7 +124,7 @@ export const services: Service[] = [
       "Share the carpet material, approximate area, stain history, furniture needs and access to power or water.",
     closing: "Step Into a Fresher Space",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395706/people-housework-housekeeping-concept-close-up-woman-with-legs-vacuum-cleaner-cleaning-carpet-home_ublczo.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395706/people-housework-housekeeping-concept-close-up-woman-with-legs-vacuum-cleaner-cleaning-carpet-home_ublczo.jpg",
   },
   {
     slug: "window-cleaning",
@@ -149,7 +149,7 @@ export const services: Service[] = [
       "Confirm the number of windows, floors, height, access conditions, flyscreens, tracks and any specialised high-access work.",
     closing: "See Your Space in a New Light",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395738/people-housework-housekeeping-concept-happy-woman-gloves-cleaning-window-with-rag-cleanser-spray-home_231208-575_q1zo4y.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395738/people-housework-housekeeping-concept-happy-woman-gloves-cleaning-window-with-rag-cleanser-spray-home_231208-575_q1zo4y.jpg",
   },
   {
     slug: "builders-cleaning",
@@ -174,7 +174,7 @@ export const services: Service[] = [
       "Provide the project stage, site safety status, services available, sensitive finishes, access and target handover date.",
     closing: "Make the Final Reveal Worth It",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792395841/three-men-are-cleaning-room-with-blue-mop_981168-12060_ugyn3v.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792395841/three-men-are-cleaning-room-with-blue-mop_981168-12060_ugyn3v.jpg",
   },
   {
     slug: "school-cleaning",
@@ -199,6 +199,6 @@ export const services: Service[] = [
       "Confirm safeguarding requirements, screening obligations, permitted hours, product requirements and written site specifications.",
     closing: "A Cleaner Setting for Every School Day",
     image:
-      "https://res.cloudinary.com/dyp247eoh/image/upload/v1792396339/two-men-are-cleaning-floor-school_1286328-2677_er8zv0.jpg",
+      "https://res.cloudinary.com/dyp247eoh/image/upload/f_auto,q_auto,w_1000/v1792396339/two-men-are-cleaning-floor-school_1286328-2677_er8zv0.jpg",
   },
 ]

@@ -87,6 +87,7 @@ export default function AlternatingServices() {
           src={service.image}
           alt={service.title}
           loading="lazy"
+          decoding="async"
           className="card-media-img"
         />
         <div className="card-media-badges">

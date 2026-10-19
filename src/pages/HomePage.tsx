@@ -73,6 +73,8 @@ export default function HomePage() {
           <img
             src={images.hero}
             alt="Professional cleaner caring for a bright modern Australian home"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="hero-note">
             <strong>Trusted Across Australia.</strong>
@@ -141,7 +143,12 @@ export default function HomePage() {
               className="service-card reveal-item"
             >
               <div className="service-card-image">
-                <img src={service.image} alt={service.title} loading="lazy" />
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <span className="service-number-badge">0{i + 1}</span>
               </div>
               <span className="icon-box">
@@ -164,6 +171,8 @@ export default function HomePage() {
           <img
             src={images.home}
             alt="Light-filled, beautifully maintained Australian living room"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="feature-copy">
@@ -199,6 +208,8 @@ export default function HomePage() {
           <img
             src={images.office}
             alt="Clean modern workplace with welcoming shared spaces"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="feature-copy">
@@ -234,6 +245,8 @@ export default function HomePage() {
         <img
           src={images.calm}
           alt="Calm and beautifully presented contemporary home"
+          loading="lazy"
+          decoding="async"
         />
       </section>
 

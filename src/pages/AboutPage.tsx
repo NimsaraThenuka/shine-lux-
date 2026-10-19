@@ -27,7 +27,12 @@ export default function AboutPage() {
       />
       <section className="split-feature section">
         <div className="feature-image">
-          <img src={images.home} alt="A warm, welcoming and cared-for home" />
+          <img
+            src={images.home}
+            alt="A warm, welcoming and cared-for home"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="feature-copy">
           <Eyebrow>Our philosophy</Eyebrow>

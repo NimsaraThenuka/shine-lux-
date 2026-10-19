@@ -36,6 +36,8 @@ export default function ServicePage({ service }: { service: Service }) {
         <img
           src={service.image}
           alt={`${service.title} in a bright, cared-for space`}
+          fetchPriority="high"
+          decoding="async"
         />
       </section>
       <section className="section ideal-grid">

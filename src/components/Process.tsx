@@ -63,12 +63,16 @@ export default function Process({ withTeam = false }: { withTeam?: boolean }) {
               {/* Soft ambient radial backdrop glow */}
               <div className="process-team-glow" aria-hidden="true" />
 
-              <img
-                src="/images/australian-cleaning-team.png"
-                alt="Professional Shine LUX Australian Cleaning Team"
-                className="process-team-image"
-                loading="lazy"
-              />
+              <picture>
+                <source srcSet="/images/australian-cleaning-team.webp" type="image/webp" />
+                <img
+                  src="/images/australian-cleaning-team.png"
+                  alt="Professional Shine LUX Australian Cleaning Team"
+                  className="process-team-image"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
           </div>
         </div>

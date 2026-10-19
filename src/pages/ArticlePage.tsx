@@ -25,6 +25,8 @@ export default function ArticlePage({ article }: { article: Article }) {
           className="article-cover"
           src={article.image}
           alt="Clean and welcoming space"
+          fetchPriority="high"
+          decoding="async"
         />
         <div className="article-body">
           {article.sections.map(([t, p]) => (

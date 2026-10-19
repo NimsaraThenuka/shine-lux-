@@ -23,7 +23,12 @@ export default function PageHero({
         <p>{text}</p>
         <Button to="/contact">Request a Tailored Quote</Button>
       </div>
-      <img src={image} alt="Beautifully maintained modern interior" />
+      <img
+        src={image}
+        alt="Beautifully maintained modern interior"
+        fetchPriority="high"
+        decoding="async"
+      />
     </section>
   )
 }

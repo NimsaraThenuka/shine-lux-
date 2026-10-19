@@ -22,6 +22,8 @@ export default function ExperienceSection() {
         <img
           src={images.kitchen}
           alt="Bright modern kitchen prepared with care"
+          loading="lazy"
+          decoding="async"
         />
         <div className="experience-caption">
           <span>Shine LUX principle</span>
